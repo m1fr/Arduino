@@ -1,7 +1,5 @@
 /*
-   Stringer
-   liten s string og stor S String
-   s -
+ Play around with Strings and it's functions
 */
 
 void setup() {
