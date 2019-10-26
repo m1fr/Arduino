@@ -1,8 +1,9 @@
+/*
+I denne oppgaven skal vi ta målinger fra en potpin, og sende det til et array. 
+vi skal så finne snittet av målingene
+*/
 
 const int potPin = A0;
-
-
-
 
 void setup() {
   // put your setup code here, to run once:
