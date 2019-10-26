@@ -1,6 +1,7 @@
-/* for lopp og while loop til å la led blinke 10ms til 2s
- *  så ja
- */
+/* 
+a while loop to make a led blink super fast to super slow
+When the button is pressed, the light resets to fast blinking
+*/
 
 const int ledPin = 7;
 const int buttonPin = 10;
@@ -28,32 +29,3 @@ void loop() {
     }
   }
 }
-
-/*
-While løkka
-void loop() {
-  long i = 10;
-  while(i < 2000) {
-    digitalWrite(ledPin, LOW);
-    delay(i);
-    digitalWrite(ledPin, HIGH);
-    delay(i);
-    i*=1.15;
-  }
-}
-
-
-
- For løkke
- *  
-
-void loop() {
-  // for løkke til å blinke fra 10ms til 2 ms
-for( long i = 10; i <= 2000; i*=1.2) {
-digitalWrite(ledPin, LOW);
-delay(i);
-digitalWrite(ledPin, HIGH);
-delay(i);
-}
-}
-*/
