@@ -1,3 +1,7 @@
+/*
+Controll 8 LED's from PORTC using bytes
+Make them blink
+*/
 
 byte b1 = B11111111;
 byte b2 = B00000000;
