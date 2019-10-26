@@ -1,6 +1,9 @@
 //noe switch and case, tilstand maskin og blinke uten delay
 //en tilstandsmaskin er en tenkt måte, tenges ofte i sirkler, systemet er i forskjellige tilstander så bruker man input til å forandre tilstanden
 //ofte brukt, traffikklys, roboter som kjører selv
+//koble til en ny knapp, og få denne til å skru LED motsatt veg.
+//Og enda en knapp som skaper en nødstopp, hvor man ikke kommer ut fra
+//Har ikke fått denne til å funke enda
 
 const int ledPin = 7;
 const int buttonPin = 2;
