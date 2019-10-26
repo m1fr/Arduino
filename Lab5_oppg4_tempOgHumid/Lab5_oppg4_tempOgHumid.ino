@@ -1,3 +1,9 @@
+/*
+Download a library for the DHT11
+Collect info about temperature and humidity, and collect them in an array with help of a struct.
+Use the info to calculate the average humidity and temperature
+*/
+
 #include <dht.h>
 
 dht DHT;
