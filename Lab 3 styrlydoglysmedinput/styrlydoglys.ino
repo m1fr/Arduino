@@ -3,7 +3,6 @@
 const int ledPin = 2;
 const int ledBuzz = 7;
 
-
 void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(ledBuzz, OUTPUT);
