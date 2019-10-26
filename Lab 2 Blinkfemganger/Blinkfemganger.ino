@@ -1,5 +1,8 @@
-const int ledPin = 7;
+/*
+Make a LED blink 5 times only
+*/
 
+const int ledPin = 7;
 
 void setup() {
  pinMode (ledPin, OUTPUT);
