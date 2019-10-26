@@ -1,7 +1,13 @@
 /*
-   Lag en funksjon skrivStjerner(int antall) som skriver * på skjermen «antall» ganger. Så skal den skrive ut et linjeskift.Om man skriver:skrivStjerner(7);Så skal:*******Skrives til skjerm
-  Lag funksjonenskrivMangeStjerner(intantall) somførstskriverenlinjemed enstjerne. Såenlinjemed to stjerner, såenmed treosv.
-  Helttilden harskreven«antall» stjernerpåenlinje.skrivMangeStjernerbørkalle(bruke) skrivStjernerOm man skriver:skriv MangeStjerner(3):Såskal:******Skrives til skjerm
+   Lag en funksjon skrivStjerner(int antall) som skriver * på skjermen «antall» ganger. Så skal den skrive ut et linjeskift.
+   Om man skriver: skrivStjerner(7); Så skal:******* Skrives til skjerm
+  Lag funksjonen skrivMangeStjerner(intantall) som først skriver en linje med en stjerne. Så en linje med to stjerner, så en med tre osv.
+  Helt til den har skrevet «antall» stjerner på en linje. skrivMangeStjerner bør kalle skrivStjerner
+  Om man skriver:skrivMangeStjerner(3):Så skal:
+  *
+  **
+  ***
+  Skrives til skjerm
 */
 char Star = '*';
 
@@ -22,7 +28,7 @@ void skrivMangeStjerner(int antall) {
   }
 }
 
-
 void loop() {
   skrivMangeStjerner(7);
+  skriv Stjerner(10);
 }
