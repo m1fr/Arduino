@@ -1,3 +1,7 @@
+/*
+Use a remote to controll the RGB light
+*/
+
 #include <IRremote.h>
 
 int RECV_PIN = 11;
