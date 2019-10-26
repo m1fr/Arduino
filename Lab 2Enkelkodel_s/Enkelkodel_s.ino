@@ -1,6 +1,6 @@
 /*
  * Vi skal lage en enkel kodelås. Den riktige koden er knapp1 først og deretter knapp2. Om denne koden trykkes inn skal led’enlyse. 
- * Trykker man  inn knappene i feil rekkefølge skal buzzerenpipe.
+ * Trykker man  inn knappene i feil rekkefølge skal buzzeren pipe.
  */
 const int ledPin = 7;
 const int button1Pin = 8;
@@ -8,7 +8,6 @@ const int button2Pin = 10;
 const int buzzPin = 13;
 
 void setup() {
-  // put your setup code here, to run once:
   pinMode (ledPin, OUTPUT);
  // pinMode (buzzPin, OUTPUT);
   pinMode (button1Pin, INPUT);
@@ -26,7 +25,6 @@ void loop() {
  delay(1000);
  notone(buzzPin);
  }
-
 }
 
 /*
