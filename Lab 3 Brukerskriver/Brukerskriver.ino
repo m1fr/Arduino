@@ -1,4 +1,7 @@
-///la brukeren taste inn et delay med tastaturet, så hvis det er 500, så skal lyset være på 500ms, og av 500ms
+/*
+Let the user write in the delay for the LED to blink
+If its 500, the LED should stay on for 500ms and off 500ms
+*/
 
 const int ledPin = 2;
 int Input = 1000;
@@ -17,5 +20,4 @@ if (Serial.available()){
   delay(Input);
   digitalWrite(ledPin, LOW);
   delay(Input);
-
 }
