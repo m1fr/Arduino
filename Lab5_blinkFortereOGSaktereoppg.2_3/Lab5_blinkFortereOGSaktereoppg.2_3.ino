@@ -1,4 +1,8 @@
-// led blinker raskere hver gang knapp trykkes inn, bruk interupt på knappen.
+/*
+Use interrupt on a button so the light will blink faster and faster for each push,
+and an interrupt on another button so the LED will blink slower and slower
+*/
+
 const int ledPin = 7;
 const int buttonPinfast = 2;  //ikke alle pins interrupt virker på 2, 3, 18, 19, 20, 21
 const int buttonPinslow = 3;
