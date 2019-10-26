@@ -1,4 +1,6 @@
-
+/*
+If the Turner state is less than 300, the LED should light up. If it's above 1000, the buzzer shall ring.
+*/
 
 // constants won't change. They're used here to set pin numbers:
 const int Turner = A1;     // the number of the turner pin
